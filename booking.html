@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head><title>booking</title>
+    <style>
+        body{
+            width: 200px;
+            justify-content: center;
+            background-color: rgb(113, 113, 167);
+            
+            
+
+        }
+       .form3 {
+           width: 200px;
+           height: 200px;
+
+        }
+        .bookingform{
+            padding-bottom: 10px;
+            background-color: black;
+            color: azure;
+            justify-content: center;
+            justify-items: center;
+            
+        }
+
+        .container{
+    
+            justify-content: center;
+            justify-items: center;
+            margin-left: 250%;
+            
+        }
+
+        #sumbit{
+            width: 45%;
+            background-color: aquamarine;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+ <form id="form" method="post">
+    <div id="bookingform">BOOKING FORM</div>
+<div class="form1">
+   <span class="Full Name">Full Name
+    <input type="text">
+
+
+    Input E-mail
+    <input type="text">
+
+
+Phone number
+<input type="tel" id="numb" placeholder="+2348103602559">
+
+
+<div class="form1">
+    
+    Delivery date
+    <input type="date" class="date" id="date">
+
+
+<div id="form2">
+       
+    <textarea id="message" placeholder="Tell us anything that might be important"></textarea>
+
+Gender
+    <div id="gender">
+        <input type="radio">male<input type="radio">female
+    
+    
+        <input id="submit" type="submit">
+
+            </div>
+</body>
+<script>
+    var form = document.getElementById('form2')
+var error = [] 
+
+    form.removeEventListener('submit',function(e){
+        e.preventDefault() // prevent the auto submission of the form
+        var message = document.getElementById("message")
+
+        if (message.value ==""){
+            error.push("please enter message")
+        }
+    })
+</script>
+
+</html>

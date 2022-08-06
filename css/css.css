@@ -1,0 +1,236 @@
+.note1{
+    
+    line-height: 75px;
+    border-width:25px;
+    font-family: 25px;
+    word-spacing: 200px;
+    color:white;
+    height: 80px;
+    text-align:center;
+    cursor: pointer;
+}
+    .header{
+      display:flex;
+      
+      height: 80px;
+      justify-content: space-between;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+     font-size: 15px;
+     color:white;
+     align-items: center;
+     }
+     .headerq{
+      display:flex;
+      
+      height: 80px;
+      justify-content: space-between;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+     font-size: 15px;
+     color:aquamarine;
+     align-items: center;
+     position: fixed;
+     z-index: 101;
+     top:0;
+     right:0;
+     left:0;
+     }
+     .copyright{
+      
+      bottom:0;
+      right: 100px;;
+      left: 250px;;
+      
+      background-color: white;
+ 
+ }
+     
+
+     body{
+        padding-bottom: 85px;
+      
+     }
+.note{
+background-color:gray;
+word-spacing: 200px;
+height: 50px;
+cursor: pointer;
+justify-content: center;
+justify-items: center;
+padding-top: 85px;
+background-color: white;
+word-spacing: 295px;
+justify-content: space-between;
+right:0;
+left:0;
+}
+
+ footer{
+   
+   text-align: center;
+   bottom: 0px;
+   width: 100%;
+
+}
+
+
+
+
+
+.header3{
+   color:black;
+   
+   background-color:aquamarine;
+}
+.button{
+   color: white;
+
+   background-color: black;
+}
+.nw{
+   background-color: black;
+   color: aliceblue;
+   padding-bottom: 8px;
+   margin-bottom: 30px;
+   right:0;
+   left:0;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    word-spacing: 100px;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    height:0;
+
+   }
+   img{
+      
+   }
+.left-section{
+    width: 200px;
+    color: white;
+    word-spacing: 400px;
+
+}
+.middle-section{
+width:200px;
+color:white;
+word-spacing: 0px;
+}
+.right-section{
+    width:200px;
+    color: black;
+    word-spacing: 0px;
+
+}
+.note2{
+   background-color:white; 
+   margin-bottom: 10px;
+
+}
+   
+
+
+button{
+   background-color:black;
+   color: white;
+}
+.headerq:hover{
+   background-color: aqua;
+}
+.header3:hover{
+   background-color: aqua;
+}
+.header2{
+   display:flex;
+   flex-direction: row;
+   margin-bottom: 10px;
+   margin-top: 100px;
+}
+
+.note3{
+flex: 1;
+background-color: antiquewhite;
+}
+   .note4{
+   flex:2;
+   border-radius: 4px;
+   background-color: black;
+   }
+.placeholder{
+   background-color: black;
+}
+.img1 {
+   display: inline-block;
+   margin-right: 40px;
+   border-radius: 0%;
+   
+       
+}
+.img2{
+   display: inline-block;
+   margin-right: 40px;
+   border-color: black;
+}
+.img3 {
+   display: inline-block;
+   margin-right: 40px;
+}
+.img4 {
+   display: inline-block;
+   margin-right: 40px;
+}
+.img5{
+    display: inline-block;
+    margin-right: 40px;  
+    
+}
+.img6{
+   display: inline-block;
+   margin-right: 40px;
+   
+}
+
+.img7{
+   display: inline-block;
+   margin-right: 40px;
+   }
+   .img8 {
+   display: inline-block;
+   margin-right: 40px;
+   border-color: blue;
+}
+input{
+   width: 100px;
+}
+.type{
+   width: 100px;
+}
+.search{
+   width: 500px; 
+}
+button{
+   font-weight: 100px;
+   cursor: pointer;
+}
+.img5{
+   display: inline-block;
+   margin-right: 40px;
+}
+
+.search{
+   width: 50px;
+   
+}
+   
+   
+   
+
+
+   </style>
+
+
